@@ -1,7 +1,9 @@
+import Intro from "./components/intro/intro";
+
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <Intro />
     </div>
   );
 }

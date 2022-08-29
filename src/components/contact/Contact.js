@@ -2,7 +2,7 @@ import './contact.css';
 import Phone from '../../img/phone.png'
 import Email from '../../img/email.png'
 import Address from '../../img/address.png'
-import { useRef, useState, useContext } from 'react';
+import { useRef, useContext } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -32,7 +32,7 @@ const Contact = () => {
       <div className='c-bg'></div>
       <div className='c-wrapper'>
         <div className='c-left'>
-          <h1 className='c-title'>Let's discuss your project</h1>
+          <h1 className='c-title'>Let's Connect</h1>
           <div className='c-info'>
             <div className='c-info-item'>
               <img src={Phone} alt='' className='c-icon' />

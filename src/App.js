@@ -1,4 +1,4 @@
-import React, { Component, useContext } from 'react';
+import React, { useContext } from 'react';
 import Toggle from './components/toggle/Toggle';
 import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
